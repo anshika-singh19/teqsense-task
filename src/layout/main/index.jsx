@@ -21,8 +21,7 @@ export default function Main(props) {
 
 	return (
 		<div className={classes.root}>
-			{/* <Typography className={classes.title}>MOVE SIZE</Typography> */}
-			<Calender />
+			{props.categoryPage ? <Typography className={classes.title}>MOVE SIZE</Typography> : <Calender />}
 			<CategoryLayout categoryPage={props.categoryPage} setDescriptionPage={props.setDescriptionPage} />
 		</div>
 	);
