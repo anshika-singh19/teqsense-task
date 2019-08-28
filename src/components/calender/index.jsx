@@ -1,5 +1,5 @@
 import React from "react";
-import moment from "moment";
+// import moment from "moment";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Grid";
 
@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function SpacingGrid() {
 	const classes = useStyles();
-	const currentDate = moment();
+	// const currentDate = moment();
 
 	const dateArray = [
 		{ date: "1", month: "Aug", weekday: "S" },
@@ -45,7 +45,7 @@ export default function SpacingGrid() {
 		{ date: "6", month: "Aug", weekday: "F" },
 		{ date: "7", month: "Aug", weekday: "S" }
 	];
-	const weekdayshort = moment.weekdaysShort();
+	// const weekdayshort = moment.weekdaysShort();
 
 	// const calenderList = weekdayshort.map(day => (
 	const calenderList = dateArray.map(day => (

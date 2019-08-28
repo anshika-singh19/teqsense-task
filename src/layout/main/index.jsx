@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import CategoryLayout from "../../components/categoryLayout";
+import Typography from "@material-ui/core/Typography";
 import Calender from "../../components/calender";
 
 const useStyles = makeStyles(theme => ({
